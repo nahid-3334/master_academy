@@ -8,5 +8,6 @@ var age int=23
 var c rune='A'
 var marks float32 =50.45
 fmt.Println("age=",age,"ascii value of char=",c,"marks=",marks)	
+fmt.Println("char:",string(c))
 }
 
