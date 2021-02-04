@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	
 	//Number 
-	fmt.Println("Number:")
+	fmt.Println("Number type:")
 	num1 := 3          // int
 num2 := 3.5       // float64
 num3 := 3 + 4i     // complex128
@@ -21,11 +21,17 @@ var myHexNumber = 0xFF  // Use prefix '0x' or '0X' for declaring hexadecimal num
 
 	fmt.Printf("%c = %d and %c = %U\n", myByte, myByte, myRune, myRune)
 	//string
-	name := "\nnahid\t"
+	fmt.Println("Number type:")
+	name := "\nnahid\t"//normal string
 	namemulti:=`I am Nahid
 	CUET CSE-15
-	`
+	`//back tick for multi line raw string
 	fmt.Println(name)
 	
 	fmt.Println(namemulti)
+	//convertion
+ marks1 :=75
+ marks2 :=25.50
+ var sum=float64(marks1) +marks2 
+ fmt.Println(sum)
 }
