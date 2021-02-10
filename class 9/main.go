@@ -1,14 +1,9 @@
 package main
 import "fmt"
 func main()  {
-	//boolean data type 
-// 	fmt.Println(true && true)
-//   fmt.Println(true && false)
-//   fmt.Println(true || true)
-//   fmt.Println(true || false)
-//   fmt.Println(!true)	
-//rune -- verbs
-var c,c1 rune ='A','অ'
-fmt.Printf("%c=%d\n",c,c)
-fmt.Printf("%c=%d",c1,c1)
+	var name string
+	var age int
+	fmt.Println("Enter your name & Age:")
+	fmt.Scanf("%s %d",&name,&age) 
+	fmt.Println("name:",name," Age:",age)
 }
