@@ -28,6 +28,7 @@ fmt.Println(x)
 // fmt.Println(elements["Li"])
 // fmt.Println(elements)
 // fmt.Println(elements["p"])
+
 // students[0] = "Apu"
 // 	students[1]="Robin"
 // 	students[2]="John"
@@ -40,7 +41,14 @@ fmt.Println(x)
 // 	marks:=[...]int{80,40,70,87,76}
 // 	fmt.Println(marks)
 
-
+//this two array in one maps
+studentsmarks := make(map[string]int)
+studentsmarks["Apu"]=80
+studentsmarks["Robiul"]=74
+studentsmarks["Robin"]=76
+studentsmarks["Foysal"]=56
+studentsmarks["john"]=87
+fmt.Println(studentsmarks)
 //maps of maps
 elements := map[string]map[string]string{
     "H": map[string]string{
