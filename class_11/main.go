@@ -46,4 +46,7 @@ func main() {
 	}
 	fmt.Println(book2)
 	fmt.Println(book1.ISBN)
+var w weight
+w=60.5
+fmt.Println(w)
 }
