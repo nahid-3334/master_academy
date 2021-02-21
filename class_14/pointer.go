@@ -15,6 +15,6 @@ func main() {
 	fmt.Println("y dererencing value is", *y)//dereferencing
 	*y=20
 	fmt.Println("value x: ", x,"\ndereference value y:",*y)
-	update(&x)
+	update(y)
 	fmt.Println("value x=",x)
 }
