@@ -51,6 +51,7 @@ func main() {
 	update(&age, &name)
 
 	fmt.Println("After :", name, age,"years old")
+	//anonymous function
 	area:= func(l int, b int) int {
 			return l * b
 		}
